@@ -1,0 +1,22 @@
+# 依赖（本项目零依赖，这里列出是为了防止误提交）
+node_modules/
+
+# 构建产物
+dist-single/
+dist-cjs/
+dist-deploy/
+*.zip
+
+# 凭证与本地调试素材 —— 绝不能提交
+handshake.json
+.env
+.env.*
+*.token
+credentials.*
+.mwi/
+
+# 系统与编辑器
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
